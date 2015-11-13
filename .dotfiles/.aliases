@@ -1,0 +1,34 @@
+# Unix Aliases
+alias ls='ls -GFh'
+alias lal='ls -al'
+alias lsa='ls -al'
+alias lsah='ls -alh'
+alias nhosts='subl /etc/hosts'
+
+# Apache
+alias a2s='sudo apachectl start'
+alias a2stop='sudo apachectl stop'
+alias a2rs='sudo apachectl -k restart'
+alias a2rl='sudo apachectl reload'
+alias a2stat='sudo apachectl -S'
+alias nvhosts='subl /etc/apache2/extra/httpd-vhosts.conf'
+
+# Nginx
+alias ngrs='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist && launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist'
+
+# PHP
+alias phprs='launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.php56.plist && launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php56.plist'
+
+# Drush commands
+alias dcca='drush cc all'
+alias dcctr='drush cc theme-registry'
+alias dccm='drush cc menu'
+alias dccr='drush cc registry'
+alias dcctl='drush cc theme-list'
+alias dccml='drush cc module-list'
+alias drr='drush registry-rebuild'
+alias dcct='drush cc theme-list && drush cc theme-registry'
+
+# SSH
+alias scp='scp -F ~/.ssh/config'
+
