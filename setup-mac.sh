@@ -48,6 +48,9 @@ brew install nodejs gcc46
 # Install Xquartz
 brew cask install xquartz
 
+# Install iterm 2
+brew cask install iterm2
+
 # Install SourceTree
 brew install sourcetree
 
