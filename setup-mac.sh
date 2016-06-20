@@ -158,3 +158,14 @@ rvm wrapper default@mailcatcher --no-prefix mailcatcher catchmail
 
 # @todo parse plist file to change username, copy it, load it, change php.ini to use sendmail_path
 
+
+# REACT NATIVE STUFF
+sudo npm install -g react-native-cli
+
+brew install watchman
+
+brew install flow
+
+# Install sequel-pro
+brew cask install sequel-pro
+
