@@ -41,12 +41,16 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 # Install Homebrew Cask
 brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+
+brew cask install sublime-text3
 
 # Install nodejs
 brew install nodejs gcc46
 
 # Install Xquartz
 brew cask install xquartz
+
 
 # Install iterm 2
 brew cask install iterm2
